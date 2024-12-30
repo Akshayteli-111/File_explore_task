@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+
+/* @font-face {
+  font-family: 'Ethnocentric';
+    src: url('/fonts/ethnocentric rg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} */
+@font-face {
+  font-family: 'Ethnocentric';
+  src: url('/fonts/Mokoto Demo') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.clientgogradient{
+  background: linear-gradient(90deg, #56CA00 0%, #1E9AD3 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.boxshowdowsColor{
+  box-shadow: 1.5px 3px 22.5px 0px #0000001A;
+
+}
